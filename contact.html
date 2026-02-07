@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EVERA | Contact</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+  <img class="logo" src="assets/evara-logo.png" alt="EVARA">
+  <span>EVARA</span>
+</a>
+
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="btn btn-sm active-btn" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="container page-head">
+      <h1>تواصل معنا</h1>
+      <p class="lead">ابعت رسالة وسنرد عليك بأسرع وقت.</p>
+    </section>
+
+    <section class="container contact-grid">
+      <form class="card form" id="contactForm">
+        <label>الاسم</label>
+        <input required type="text" name="name" placeholder="اكتب اسمك">
+
+        <label>البريد الإلكتروني</label>
+        <input required type="email" name="email" placeholder="example@mail.com">
+
+        <label>رسالتك</label>
+        <textarea required name="message" rows="5" placeholder="اكتب رسالتك هنا..."></textarea>
+
+        <button class="btn" type="submit">إرسال</button>
+        <p class="muted tiny" id="formMsg"></p>
+      </form>
+
+      <div class="card info">
+        <h2>بيانات التواصل</h2>
+        <p class="muted">غيّر البيانات دي لبيانات شركتك.</p>
+
+        <div class="info-row"><strong>📍 العنوان:</strong> القاهرة، مصر</div>
+        <div class="info-row"><strong>📞 الهاتف:</strong> +20 000 000 0000</div>
+        <div class="info-row"><strong>✉️ البريد:</strong> hello@evera.com</div>
+
+        <div class="map">
+          <img
+            src="https://images.unsplash.com/photo-1502920917128-1aa500764b2f?auto=format&fit=crop&w=1200&q=80"
+            alt="Map placeholder"
+          />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <div class="foot-left">
+        <img class="logo sm" src="assets/logo-evera.svg" alt="EVERA logo">
+        <div>
+          <strong>EVERA</strong>
+          <div class="muted">© 2026 — All rights reserved.</div>
+        </div>
+      </div>
+      <div class="foot-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

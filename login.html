@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EVARA | Login</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <img class="logo" src="assets/logo-evara.png" alt="EVARA">
+        <span>EVARA</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="container page-head">
+      <h1>تسجيل الدخول / إنشاء حساب</h1>
+      <p class="lead">Email حقيقي + تأكيد بريد عبر Supabase.</p>
+    </section>
+
+    <section class="container contact-grid">
+      <form class="card form" id="authForm">
+        <label>Email</label>
+        <input required type="email" id="email" placeholder="name@email.com" />
+
+        <label>Password</label>
+        <input required type="password" id="password" placeholder="••••••••" />
+
+        <button class="btn" type="submit">Login</button>
+        <button class="btn btn-ghost" id="signupBtn" type="button">Sign Up</button>
+
+        <p class="muted tiny" id="msg"></p>
+      </form>
+
+      <div class="card info">
+        <h2>ملاحظة</h2>
+        <p class="muted">لو فعلت Confirm Email لازم تؤكد الإيميل قبل تسجيل الدخول.</p>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="auth.js"></script>
+</body>
+</html>

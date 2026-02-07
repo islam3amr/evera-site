@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EVERA | Engineering</title>
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">
+  <img class="logo" src="assets/evara-logo.png" alt="EVARA">
+  <span>EVARA</span>
+</a>
+
+
+    <nav class="nav">
+      <a class="active" href="#home" data-i18n="nav_home">الرئيسية</a>
+      <a href="#services" data-i18n="nav_services">الخدمات</a>
+      <a href="#portfolio" data-i18n="nav_portfolio">أعمالنا</a>
+      <a href="#testimonials" data-i18n="nav_testimonials">آراء العملاء</a>
+      <button class="btn btn-sm btn-ghost" id="langToggle">EN</button>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="badge" data-i18n="badge">هندسة • تصميم • إشراف</p>
+      <h1 data-i18n="hero_title">
+        ابنِ مشروعك بذكاء مع <span class="grad">EVERA</span> ✨
+      </h1>
+      <p class="lead" data-i18n="hero_desc">
+        حلول هندسية متكاملة للتصميم المعماري والإنشائي وتنسيق الأعمال الكهروميكانيكية والإشراف.
+      </p>
+
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-num">200+</div>
+          <div class="stat-txt" data-i18n="stat_projects">مشروع</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">10+</div>
+          <div class="stat-txt" data-i18n="stat_years">سنوات خبرة</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">24/7</div>
+          <div class="stat-txt" data-i18n="stat_support">دعم</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <img class="hero-img"
+           src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1400&q=80"
+           alt="Engineering">
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head">
+      <h2 data-i18n="services_title">الخدمات</h2>
+      <p data-i18n="services_desc">حلول هندسية احترافية تدعم نجاح مشروعك.</p>
+    </div>
+
+    <div class="grid-3">
+      <article class="card">
+        <h3 data-i18n="srv1_title">تصميم معماري</h3>
+        <p data-i18n="srv1_desc">مخططات، واجهات، تصور ثلاثي الأبعاد ورسومات تنفيذية.</p>
+      </article>
+
+      <article class="card">
+        <h3 data-i18n="srv2_title">تصميم إنشائي</h3>
+        <p data-i18n="srv2_desc">أنظمة إنشائية آمنة مع حسابات ورسومات شوب.</p>
+      </article>
+
+      <article class="card">
+        <h3 data-i18n="srv3_title">تنسيق MEP</h3>
+        <p data-i18n="srv3_desc">تنسيق التكييف والسباكة والكهرباء بدون تعارضات.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="section alt" id="portfolio">
+  <div class="container">
+    <div class="section-head">
+      <h2 data-i18n="portfolio_title">أعمالنا</h2>
+      <p data-i18n="portfolio_desc">نماذج من مشاريعنا الهندسية.</p>
+    </div>
+
+    <div class="grid-3">
+      <article class="card project">
+        <img class="project-img"
+             src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1400&q=80"
+             alt="Commercial">
+        <div class="project-body">
+          <h3 data-i18n="p1_title">مبنى تجاري</h3>
+          <p data-i18n="p1_desc">تصميم معماري وإنشائي مع رسومات تنفيذية.</p>
+        </div>
+      </article>
+
+      <article class="card project">
+        <img class="project-img"
+             src="https://images.unsplash.com/photo-1529421308418-eab98863cee5?auto=format&fit=crop&w=1400&q=80"
+             alt="Residential">
+        <div class="project-body">
+          <h3 data-i18n="p2_title">كمبوند سكني</h3>
+          <p data-i18n="p2_desc">تخطيط وواجهات وتنسيق MEP وإشراف.</p>
+        </div>
+      </article>
+
+      <article class="card project">
+        <img class="project-img"
+             src="https://images.unsplash.com/photo-1533106418989-88406c7cc8ca?auto=format&fit=crop&w=1400&q=80"
+             alt="Industrial">
+        <div class="project-body">
+          <h3 data-i18n="p3_title">منشأة صناعية</h3>
+          <p data-i18n="p3_desc">تحسين هيكل معدني ورسومات تفصيلية.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section" id="testimonials">
+  <div class="container">
+    <div class="section-head">
+      <h2 data-i18n="test_title">آراء العملاء</h2>
+      <p data-i18n="test_desc">ماذا يقول عملاؤنا عن EVERA.</p>
+    </div>
+
+    <div class="grid-3">
+      <article class="card">
+        <p data-i18n="t1">“رسومات منظمة وتعديلات سريعة. التنفيذ كان سلس.”</p>
+        <div class="muted">— <span data-i18n="t1n">مالك مشروع</span></div>
+      </article>
+      <article class="card">
+        <p data-i18n="t2">“تنسيق قوي بين التخصصات، ولا تعارضات.”</p>
+        <div class="muted">— <span data-i18n="t2n">مقاول</span></div>
+      </article>
+      <article class="card">
+        <p data-i18n="t3">“إشراف احترافي وتقارير واضحة.”</p>
+        <div class="muted">— <span data-i18n="t3n">استشاري</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- WhatsApp Floating Button -->
+<a class="wa-float" id="waBtn" target="_blank" rel="noopener">
+  <span class="wa-icon">📞</span>
+  <span class="wa-text" data-i18n="wa_text">واتساب</span>
+</a>
+
+<footer class="site-footer">
+  <div class="container foot">
+    <div class="foot-left">
+      <img class="logo sm" src="assets/logo-evera.svg" alt="EVERA logo">
+      <div>
+        <strong>EVERA</strong>
+        <div class="muted">© 2026 — <span data-i18n="rights">جميع الحقوق محفوظة.</span></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
